@@ -8,7 +8,7 @@ apt-get install -y fontconfig openjdk-21-jre-headless curl unzip gnupg
 
 # Jenkins LTS repo. If apt complains about the key, check https://pkg.jenkins.io/debian-stable/
 # for the current key file name and update the URL below.
-curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key \
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key \
   -o /usr/share/keyrings/jenkins-keyring.asc
 echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/" \
   > /etc/apt/sources.list.d/jenkins.list
